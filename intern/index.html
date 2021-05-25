@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+ body{
+     background-image: url("bg1.png");
+     font-style: italic;
+ }
+ 
+ 
+</style>
+</head>
+<title>forms</title>
+  <div style="text-align: center;color:rgb(157, 240, 255); padding:2px; border-radius: 30px; margin:0px 60px 0px 60px;font-size: 8px;font-weight: bold;"> 
+     <h1 style="font-style: italic;font-weight: bolder;font-size: 18px;"> Contact form</h1>
+</div>
+<div style="color:rgb(243, 181, 224); padding:2px 0px 0px 20px ; border-radius: 30px; margin:60px 60px 0px 60px;font-size: 8px;font-weight: bold;"> 
+<form class="form" id="form1">
+    <table>
+    <tr>
+        <td>
+          
+            <label for="fname" style="font-size:15px;margin-right:136px;"><br>Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="first name..">&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="text" id="lname" name="lastname" placeholder="last name..">
+        <br><br>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label for="country"  style="font-size:15px;padding-top:20px;margin-right:120px;">Country</label>
+            <select id="country" name="country">
+              <option value="australia">America</option>
+              <option value="canada">Canada</option>
+              <option value="Dubai">Dubai</option>
+              <option value="India">India</option>
+              <option value="Pakisthan">Pakisthan</option><br>
+        
+            </select>
+          <br>
+           </td>
+    </tr>
+     <tr>
+         <td><br>
+            <label for="gender" style="font-size:15px;margin-right:120px;">Gender</label>
+            <input type="radio" id="male" >  
+            <label for="male"  style="font-size:15px;margin-right:65px;" >male</label>
+            <input type="radio" id="female" >  
+            <label for="female"  style="font-size:15px;margin-right:65px;" >female</label>
+            <input type="radio" id="female" >  
+            <label for="female"  style="font-size:15px;margin-right:65px;" >transgender</label>
+         </td>
+     </tr> 
+     <tr>
+        <td>
+          <br>
+            <label for="contact" style="font-size:15px;margin-right:70px;">Contact number</label>
+            <input type="text" id="contact" placeholder="contact..">&nbsp;&nbsp;&nbsp;&nbsp;
+        <br><br>
+        </td>
+    </tr> 
+    <tr>
+        <td>
+            <label for="mail id" style="font-size:15px;margin-right:125px;">Mail id</label>
+            <input type="text" id="mail" placeholder="mail id..">&nbsp;&nbsp;&nbsp;&nbsp;
+        <br><br>
+        </td>
+    </tr> 
+    <tr>
+        <td>
+            <label for="dob" style="font-size:15px;margin-right:90px;">Date of birth</label>
+            <input type="number" id="dob" placeholder="date..">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <select id="dob" name="dob">
+                <option value="01">month</option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <option value="10">01</option>
+                <option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">05</option>
+                <option value="06">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="01">11</option>
+                <option value="02">12</option>
+                <option value="03">13</option>
+                <option value="04">14</option>
+                <option value="05">15</option>
+                <option value="06">16</option>
+                <option value="07">17</option>
+                <option value="08">18</option>
+                <option value="09">19</option>
+                <option value="10">20</option>
+                <option value="01">21</option>
+                <option value="02">22</option>
+                <option value="03">23</option>
+                <option value="04">24</option>
+                <option value="05">25</option>
+                <option value="06">26</option>
+                <option value="07">27</option>
+                <option value="08">28</option>
+                <option value="09">29</option>
+                <option value="10">30</option>
+                <option value="10">31</option>
+<input type="number" id="dob" placeholder="year.." style="margin-left:30px;">
+               
+                </select></td></tr>
+                <tr>
+                <td>
+                    <label for="desi" style="font-size:15px;margin-right:95px;"><br>Designation</label>
+                    <input type="checkbox" id="desi" >
+                    <label for="desi" style="font-size: 15px;">Student</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" id="desi" >
+                    <label for="desi" style="font-size: 15px;">faculty</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" id="desi" >
+                    <label for="desi" style="font-size: 15px;">others</label>
+                   
+            
+               </td></tr>
+               <tr>
+                <td>
+                    <label for="dob" style="font-size:15px;margin-right:68px;"><br>Graduation year</label>
+                    <select id="dob" name="dob">
+                        <option value="01">Year...</option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <option value="10">2019</option>
+                        <option value="02">2020</option>
+                        <option value="03">2021</option>
+                        <option value="04">2022</option>
+                        <option value="05">2023</option>
+                        </select></td></tr>
+                        <tr>
+                            <td>
+                                <label for="dob" style="font-size:15px;margin-right:125px;"><br>Degree</label>
+                                <select id="dob" name="dob">
+                                    <option value="01">Degree...</option>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    <option value="10">BE</option>
+                                    <option value="02">BA</option>
+                                    <option value="03">MBA</option>
+                                    <option value="04">B.com</option>
+                                    <option value="05">others</option>
+                                    </select></td></tr>
+                                    <tr>
+                                        <td>
+                                            <label for="desi" style="font-size:15px;margin-right:95px;"><br>Experience</label>
+                                            <input type="checkbox" id="desi" >
+                                            <label for="desi" style="font-size: 15px;">1 year</label> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="checkbox" id="desi" >
+                                            <label for="desi" style="font-size: 15px;">2 years</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                            <input type="checkbox" id="desi" >
+                                            <label for="desi" style="font-size: 15px;">more</label>
+                                           
+                                    
+                                       </td></tr>
+            <tr>
+        <td>
+         <br> <br><br><br><br>  <input type="submit" value="Submit" class="glow" style="background-color: rgb(238, 238, 238); color:rgb(0, 126, 148);padding:15px;text-align: center;border-radius: 15px;margin-left:900px;">
+        </td>
+    </tr>    
+       
+      </form>
+    </form></div>
+</table>
+</body>
+
+</html>
+  
+
